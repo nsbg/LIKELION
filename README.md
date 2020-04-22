@@ -1,3 +1,4 @@
-# 2020_likelion_8th
+# LIKELION
 
-멋사 정기 세션 내용 정리용 repository
+2020 멋쟁이사자처럼 8기
+정기 세션 내용 정리용 repository
