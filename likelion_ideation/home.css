@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    /* 내용이 요소의 크기를 벗어났을 때 어떻게 처리할지 정하는 속성 */
+    overflow: scroll;
+
+    overflow-x: hidden;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+::-webkit-scrollbar {  
+    width: 20px; 
+}
+
+ /* 스크롤이 움직이는 영역 */ 
+::-webkit-scrollbar-track { 
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+
+    height: 20px;
+
+    border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #bbbbbb;
+}
+
+.menu-nav{
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    
+    background-color: #bee5f3;
+}
+
+.menu-logo{
+    display: inline-block;
+    
+    font-family: Britannic;
+
+    color: #63A7C1;
+
+    font-size: 50px;
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.search-box{
+    display: inline-block;
+    flex: 2;
+}
+
+.search-bar{
+    border: 0px;
+    outline: none;
+    
+    border-radius: 15px;
+    
+    width: 800px;
+    height: 33%;
+    
+    padding: 0 10px;
+    margin-left: 70px;
+    margin-top: 38px;
+}
+
+.menu-category{
+    display: inline-block;
+    
+    font-size: 15px;
+
+    text-align: center;
+
+    padding-right: 40px;
+}
+
+.menu-item {
+    float: right; 
+
+    color: rgb(255, 255, 255);
+    
+    /* 가로 가운데 정렬 */
+    justify-content: center;
+
+    /* 세로 가운데 정렬 */
+    align-items: center;
+
+    padding-top: 49px;
+
+    margin-left: 30px;
+}
+
+.body-nav{
+    background-color: white;
+    height: 1000px;
+
+    margin-top: 120px;
+}
+
+.default {
+    /* padding 두개 쓸 경우 위 아래 오른쪽 왼쪽 */
+    height: 200px;
+
+    background-color: rgb(251, 251, 251);
+}
+
+.default-bar {
+    padding-top: 30px;
+    padding-left: 180px;
+}
+
+.default-menu {
+    display: inline-block;
+    justify-content: center;
+
+    width: 100px;
+
+    margin-right: 40px;
+}
+
+.default-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid white;
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+
+    box-shadow: 5px 5px 15px rgb(218, 218, 218);
+    
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.default-menu-text {
+    text-align: center;
+
+    line-height: 30px;
+    
+    font-size: 15px;
+
+    width: 100px;
+    height: 30px;
+}
+
+.sub-bar {
+    display: inline-block;
+    padding-left: 50px;
+
+}
+
+ul.sub-menu-1 li {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.board {
+    height: 600px;
+
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.left-board {
+    display: inline-block;
+
+    width: 200px;
+    height: 590px;
+
+    background-color: #bee5f3;
+
+    margin-right: 10px;
+}
+
+.center-board {
+    display: inline-block;
+    
+    width: 850px;
+    height: 590px;
+
+    background-color: #63A7C1;
+
+    margin-right: 10px;
+}
+
+.right-board {
+    display: inline-block;
+
+    width: 360px;
+    height: 590px;
+
+    background-color: #bee5f3;
+}
+
+.most-visited, .recently-post, .recently-comments {
+    
+
+    width: 430px;
+
+    display: inline-block;
+
+    margin-right: 25px;
+}
+
+.board-title {
+    border: 2px solid darkgoldenrod;
+
+    height: 40px;
+}
+
+.star-icon {
+    width: 30px;
+    height: 30px;
+
+    float: left;
+
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.recommends {
+    height: 90px;
+
+    background-color: rgb(251, 251, 251);
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+
+    height: 90px;
+
+    padding-top: 20px;
+}
+
+.ad-banner {
+    display: inline-block;
+    
+    width: 150px;
+    height: 50px;
+
+    margin-right: 15px;
+}
+
+.class-101, .taling, .one-day-class {
+    width: 150px;
+    height: 50px;
+}
+
+.info-nav{
+    bottom: 0;
+
+    background-color: #bee5f3;
+
+    width: 100%;
+    height: 200px;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.bottom-logo {
+    font-family: Britannic;
+    font-size: 30px;
+    color: #63A7C1;
+
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.bottom-etc {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.about-us, .contact, .support {
+    display: inline-block;
+    
+    color: white;
+
+    margin-right: 10px;
+}
+
+.bottom-text {
+    padding-left: 50px;
+    margin-top: 20px;
+
+    font-size: 13px;
+}
